@@ -1,0 +1,70 @@
+:root {
+  --font-default: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --primary-color: #4CAF50;
+  --primary-color-hover: #45a049;
+  --border-radius: 4px;
+}
+
+* {
+  font-family: var(--font-default);
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 1em;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.top-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    margin: 15px 0;
+  }
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.field-group {
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  lexxy-editor {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+
+    &:focus {
+      border-color: var(--primary-color);
+      outline: none;
+    }
+  }
+}
+
+.button-submit {
+  background-color: var(--primary-color);
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: white;
+  border-radius: var(--border-radius);
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-color-hover);
+  }
+}
+
+.lexxy-content {
+  margin: 15px 0;
+}

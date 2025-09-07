@@ -1,0 +1,28 @@
+--- METADATA -------------------------------------------------------------------
+Herb Version: herb gem v0.7.0, libprism v1.4.0, libherb v0.7.0 (Ruby C native extension)
+Reported at: 2025-09-06T21:10:49
+
+--- PROJECT --------------------------------------------------------------------
+Path: /Users/tedmartin/lexxytest/app/views
+Glob: /Users/tedmartin/lexxytest/app/views**/*.html.erb
+
+--- PROCESSED FILES ------------------------------------------------------------
+✅ Parsed /Users/tedmartin/lexxytest/app/views/active_storage/blobs/_blob.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/layouts/action_text/contents/_content.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/layouts/application.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/layouts/mailer.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/posts/_form.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/posts/_post.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/posts/edit.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/posts/index.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/posts/new.html.erb successfully
+✅ Parsed /Users/tedmartin/lexxytest/app/views/posts/show.html.erb successfully
+
+--- SUMMARY --------------------------------------------------------------------
+Total files: 10
+✅ Successful: 10 (100.0%)
+❌ Failed: 0 (0.0%)
+⚠️ Parse errors: 0 (0.0%)
+⏱️ Timed out: 0 (0.0%)
+
+⏱️ Total time: 16.82ms
