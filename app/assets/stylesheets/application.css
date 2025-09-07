@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-.button-submit {
+.button-primary {
   background-color: var(--primary-color);
   padding: 10px 15px;
   margin-top: 10px;
@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5 {
   border-radius: var(--border-radius);
   border: none;
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     background-color: var(--primary-color-hover);
